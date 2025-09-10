@@ -10,8 +10,14 @@ def dividir(a, b):
     else:
         return a / b
 
-res1 = dividir(10, 2)
-print(res1)
 
-res2 = dividir(7, 0)
-print(res2)
+try:
+    res1 = dividir(10, 2)
+    print(res1)
+except ZeroDivisionError:
+
+
+try:
+    res2 = dividir(7, 0)
+    print(res2)
+except ZeroDivisionError:
