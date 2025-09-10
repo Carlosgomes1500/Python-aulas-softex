@@ -13,5 +13,7 @@ try:
     print("Escrevendo no arquivo...")
 
 finally:
+    arquivo.write("\nFim da escrita no arquivo")
     print("Fim da escrita no arquivo")
+    
     print("Encerrando programa")
