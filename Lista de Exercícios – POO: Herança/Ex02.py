@@ -1,0 +1,21 @@
+"""
+2
+Implemente um método exibir_informacoes() na classe Usuario e herde esse método em Cliente. 
+Mostre como chamar o método herdado a partir de um objeto Cliente.
+"""
+class Usuario:
+    def __init__(self,nome, email):
+        self.nome = nome
+        self.email = email
+
+    def exibir_informacoes(self):
+        print(f"Nome do clinete:{self.nome} email:{self.email}")
+
+
+class Cliente(Usuario):
+    ...
+
+
+cliente1 = Cliente("Pedro","pedro@yahoo.com")
+
+cliente1.exibir_informacoes()
