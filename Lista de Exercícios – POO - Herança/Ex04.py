@@ -23,7 +23,7 @@ class Cliente(Usuario):
         self.saldo = saldo
     
     def exibir_informacoes(self):
-        print(f"Nome do clinete:{self.nome} email:{self.email}")
+        print(f"Nome do cliete:{self.nome} email:{self.email} saldo:{self.saldo}")
 
     def saudacao(self):
         print("Olá, cliente")
